@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "moduleResolution": "node",
+        "strict": true,
+        "baseUrl": "./src", // Set the base URL to the root of your source code
+        "paths": {
+          "*": ["*"] // Enable absolute paths
+        },
+    },
+    "include": ["**/*.ts", "../../pcd.d.ts"]
+}
